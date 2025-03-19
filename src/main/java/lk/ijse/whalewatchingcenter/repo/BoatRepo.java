@@ -9,12 +9,12 @@ import java.util.UUID;
 
 @Repository
 public interface BoatRepo extends JpaRepository<Boat, UUID> {
-    BoatRepo findByUserName(String userName);
-    boolean existsByUserName(String userName);
-
-    int countByUserName(String userName);
-
-    List<Boat> findByCategory(String category);
-
-    List<Boat> findByActive(boolean active);
+//    BoatRepo findByUserName(String userName);
+//    boolean existsByUserName(String userName);
+//
+//    int countByUserName(String userName);
+//
+//    List<Boat> findByCategory(String category);
+//
+//    List<Boat> findByActive(boolean active);
 }
