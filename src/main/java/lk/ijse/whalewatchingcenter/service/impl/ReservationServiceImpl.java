@@ -2,8 +2,8 @@ package lk.ijse.whalewatchingcenter.service.impl;
 
 import jakarta.transaction.Transactional;
 import lk.ijse.whalewatchingcenter.dto.ReservationDTO;
-import lk.ijse.whalewatchingcenter.repository.BoatRepo;
-import lk.ijse.whalewatchingcenter.repository.ReservationRepo;
+import lk.ijse.whalewatchingcenter.repo.BoatRepo;
+import lk.ijse.whalewatchingcenter.repo.ReservationRepo;
 import lk.ijse.whalewatchingcenter.service.ReservationService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,5 @@
-package lk.ijse.whalewatchingcenter.repository;
+
+package lk.ijse.whalewatchingcenter.repo;
 
 import lk.ijse.whalewatchingcenter.entity.Payment;
 import org.springframework.data.jpa.repository.JpaRepository;

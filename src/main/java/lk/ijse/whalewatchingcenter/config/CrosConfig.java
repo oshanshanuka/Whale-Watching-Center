@@ -14,4 +14,5 @@ public class CrosConfig implements WebMvcConfigurer {
                 .allowedHeaders("*")
                 .allowCredentials(true);
     }
+
 }

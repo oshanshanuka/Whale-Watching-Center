@@ -8,7 +8,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication(scanBasePackages = "lk.ijse.whalewatchingcenter")
-@EnableJpaRepositories(basePackages = "lk.ijse.whalewatchingcenter.repository")
 @EntityScan(basePackages = "lk.ijse.whalewatchingcenter.entity")
 public class WhaleWatchingCenterApplication {
 

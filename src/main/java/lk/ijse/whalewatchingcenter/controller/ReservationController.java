@@ -1,4 +1,4 @@
 package lk.ijse.whalewatchingcenter.controller;
 
-public class ReservationsController {
+public class ReservationController {
 }

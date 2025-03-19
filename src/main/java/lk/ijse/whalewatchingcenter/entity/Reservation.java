@@ -13,12 +13,12 @@ import java.util.UUID;
 @NoArgsConstructor
 @Data
 @Entity
-@Table(name = "orders")
+@Table(name = "reservations")
 public class Reservation implements Serializable{
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
-    private UUID oid;
-    private Date orderDate;
+    private UUID rid;
+    private Date reservationDate;
     private double totalAmount;
 
     @ManyToOne

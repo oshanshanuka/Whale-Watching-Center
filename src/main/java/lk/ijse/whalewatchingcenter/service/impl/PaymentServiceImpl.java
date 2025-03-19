@@ -1,7 +1,7 @@
 package lk.ijse.whalewatchingcenter.service.impl;
 
 import lk.ijse.whalewatchingcenter.dto.PaymentDTO;
-import lk.ijse.whalewatchingcenter.repository.PaymentRepo;
+import lk.ijse.whalewatchingcenter.repo.PaymentRepo;
 import lk.ijse.whalewatchingcenter.service.PaymentService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;

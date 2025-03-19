@@ -3,7 +3,7 @@ package lk.ijse.whalewatchingcenter.service.impl;
 import lk.ijse.whalewatchingcenter.dto.UserDTO;
 import lk.ijse.whalewatchingcenter.entity.User;
 import lk.ijse.whalewatchingcenter.enums.ImageType;
-import lk.ijse.whalewatchingcenter.repository.UserRepository;
+import lk.ijse.whalewatchingcenter.repo.UserRepository;
 import lk.ijse.whalewatchingcenter.service.UserService;
 import lk.ijse.whalewatchingcenter.util.ImageUtil;
 import org.hibernate.StaleObjectStateException;
