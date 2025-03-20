@@ -27,7 +27,7 @@ public class BoatDTO<T> implements Serializable {
     private Double price;
 
 
-    private int quantity;
+    private int capacity;
 
     private T imageURL;
     private Long sellerId;

@@ -28,6 +28,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.util.UUID;
 
 @RestController
+@RequestMapping("api/v1/user")
 public class UserController {
 
 //    @PostMapping(value = "/register")

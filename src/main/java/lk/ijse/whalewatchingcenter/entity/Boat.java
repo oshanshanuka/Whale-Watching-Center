@@ -15,7 +15,7 @@ import java.io.Serializable;
 public class Boat implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private String id;
 
     @Column(nullable = false, unique = true)
     private String name;
@@ -24,4 +24,6 @@ public class Boat implements Serializable {
     private int capacity;
 
     private String description;
+    private String imageURL;
+
 }
