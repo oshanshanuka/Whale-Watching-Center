@@ -26,7 +26,7 @@ import java.util.*;
 @Service
 @Transactional
 public class UserServiceImpl implements UserDetailsService, UserService {
-    private static final Logger logger = LoggerFactory.getLogger(SpiceServiceImpl.class);
+    private static final Logger logger = LoggerFactory.getLogger(BoatServiceImpl.class);
 
     @Autowired
     private UserRepository userRepository;
