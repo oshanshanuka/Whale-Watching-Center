@@ -29,6 +29,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("api/v1/user")
+@CrossOrigin(origins = "http://localhost:63342")
 public class UserController {
 
 //    @PostMapping(value = "/register")
