@@ -28,4 +28,44 @@ public class ReservationDTO {
     private UUID userId;
     @NotNull
     private List<PaymentDTO> payments;
+
+    public UUID getRid() {
+        return Rid;
+    }
+
+    public void setRid(UUID rid) {
+        Rid = rid;
+    }
+
+    public Date getResDate() {
+        return ResDate;
+    }
+
+    public void setResDate(Date resDate) {
+        ResDate = resDate;
+    }
+
+    public double getTotalAmount() {
+        return totalAmount;
+    }
+
+    public void setTotalAmount(double totalAmount) {
+        this.totalAmount = totalAmount;
+    }
+
+    public UUID getUserId() {
+        return userId;
+    }
+
+    public void setUserId(UUID userId) {
+        this.userId = userId;
+    }
+
+    public List<PaymentDTO> getPayments() {
+        return payments;
+    }
+
+    public void setPayments(List<PaymentDTO> payments) {
+        this.payments = payments;
+    }
 }

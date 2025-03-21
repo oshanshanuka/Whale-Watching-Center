@@ -45,7 +45,7 @@ public class BoatController {
     @GetMapping(path = "/getAll")
     public ResponseUtil getAllBoats() {
         try {
-            List<BoatDTO> boats = boatService.getAllBoats();
+            List<BoatDTO<String>> boats = boatService.getAllBoats();
             return new ResponseUtil(200, "Boats retrieved successfully", boats);
         } catch (Exception e) {
             log.error("Error retrieving boats", e);
